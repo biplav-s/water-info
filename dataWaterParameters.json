@@ -1,0 +1,182 @@
+[
+        {
+                "name": "pH",
+                "full_name": "pH",
+                "min_limit": "5.5",
+                "max_limit": "9.5",
+                "type": "accept_range",
+                "geoLimit": "US",
+                "comments": "Units: Decimal log."
+        },
+        {
+                "name": "pH",
+                "full_name": "pH",
+                "min_limit": "6.5",
+                "max_limit": "8.5",
+                "type": "accept_range",
+                "comments": "Units: Decimal log. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
+        },
+        {
+                "name": "Air_Temperature",
+                "full_name": "Air Remperature",
+                "min_limit": "0",
+                "max_limit": "",
+                "type": "generic",
+                "comments": "Celsius"
+        },
+        {
+                "name": "DO",
+                "full_name": "Dissolved Oxygen",
+                "min_limit": "6000",
+                "max_limit": "",
+                "type": "highAccept",
+                "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
+        },
+        {
+                "name": "BOD",
+                "full_name": "Biological Oxygen Demand",
+                "min_limit": "3000",
+                "max_limit": "",
+                "type": "highAccept",
+                "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
+        },
+        {
+                "name": "Turbidity",
+                "full_name": "Turbidity",
+                "min_limit": "",
+                "max_limit": "10",
+                "type": "lowAccept",
+                "comments": "Unit: NTU. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
+        },
+        {
+                "name": "Conductivity",
+                "full_name": "Conductivity",
+                "min_limit": "",
+                "max_limit": "2250",
+                "type": "lowAccept",
+                "comments": "Unit: micro siemens/cm. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
+        },
+        {
+                "name": "TC",
+                "full_name": "Total Faecal Coliform Bacteria Count (TC)",
+                "min_limit": "",
+                "max_limit": "500",
+                "type": "lowAccept",
+                "comments": "Unit: Colonies/100ml. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
+        },
+        {
+                "name": "FC",
+                "full_name": "Faecal  Coliform Bacteria Count (FC)",
+                "min_limit": "",
+                "max_limit": "25000",
+                "type": "lowAccept",
+                "comments": "Unit: Colonies/100ml. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
+        },
+        {
+                "name": "FS",
+                "full_name": "Faecal Strptococci  Bacteria Count (FS)",
+                "min_limit": "",
+                "max_limit": "5000",
+                "type": "lowAccept",
+                "comments": "Unit: Colonies/100ml. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
+        },
+        {
+                "name": "Hardness",
+                "full_name": "Hardness",
+                "min_limit": "",
+                "max_limit": "300000",
+                "type": "lowAccept",
+                "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
+        },
+        {
+                "name": "Alkalinity",
+                "full_name": "Alkalinity",
+                "min_limit": "",
+                "max_limit": "200000",
+                "type": "lowAccept",
+                "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
+        },
+        {
+                "name": "Chloride",
+                "full_name": "Chloride",
+                "min_limit": "",
+                "max_limit": "250000",
+                "type": "lowAccept",
+                "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
+        },
+        {
+                "name": "Sulphate",
+                "full_name": "Sulphate",
+                "min_limit": "",
+                "max_limit": "200000",
+                "type": "lowAccept",
+                "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
+        },
+        {
+                "name": "Cadmium",
+                "full_name": "Cadmium",
+                "min_limit": "",
+                "max_limit": "10",
+                "type": "lowAccept",
+                "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
+        },
+        {
+                "name": "Chromium",
+                "full_name": "Chromium",
+                "min_limit": "",
+                "max_limit": "50",
+                "type": "lowAccept",
+                "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
+        },
+        {
+                "name": "Nickel",
+                "full_name": "Nickel",
+                "min_limit": "",
+                "max_limit": "20",
+                "type": "lowAccept",
+                "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
+        },
+        {
+                "name": "Iron",
+                "full_name": "Iron",
+                "min_limit": "",
+                "max_limit": "300",
+                "type": "lowAccept",
+                "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
+        },
+        {
+                "name": "Iron",
+                "full_name": "Iron",
+                "min_limit": "",
+                "max_limit": "1000",
+                "type": "lowAccept",
+                "geoLimit": "US",
+                "comments": "Unit: ug/l. Source: https://www.epa.gov/wqc/national-recommended-water-quality-criteria-aquatic-life-criteria-table"
+        },
+        {
+                "name": "Copper",
+                "full_name": "Copper",
+                "min_limit": "",
+                "max_limit": "50",
+                "purpose": "drinking",
+                "type": "lowAccept",
+                "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
+        },
+        {
+                "name": "Copper",
+                "full_name": "Copper",
+                "min_limit": "",
+                "max_limit": "1300",
+                "purpose": "drinking",
+                "type": "lowAccept",
+                "comments": "Unit: ug/l. Source: https://www.epa.gov/wqc/national-recommended-water-quality-criteria-human-health-criteria-table"
+        },
+        {
+                "name": "Lead",
+                "full_name": "Lead",
+                "min_limit": "",
+                "max_limit": "2.5",
+                "type": "lowAccept",
+                "comments": "Unit: ug/l. Source: https://www.epa.gov/wqc/national-recommended-water-quality-criteria-aquatic-life-criteria-table"
+        }
+]
