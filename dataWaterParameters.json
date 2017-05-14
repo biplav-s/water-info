@@ -1,5 +1,4 @@
 [
-        // --------------------------------------------------------
         {
                 "name": "pH",
                 "full_name": "pH",
@@ -15,9 +14,9 @@
                 "min_limit": "6.5",
                 "max_limit": "8.5",
                 "type": "accept_range",
+                "geoLimit": "IN",
                 "comments": "Units: Decimal log. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
         },
-        // --------------------------------------------------------
         {
                 "name": "Air_Temperature",
                 "full_name": "Air Remperature",
@@ -32,6 +31,7 @@
                 "min_limit": "6000",
                 "max_limit": "",
                 "type": "highAccept",
+                "geoLimit": "IN",
                 "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
         },
         {
@@ -40,6 +40,7 @@
                 "min_limit": "3000",
                 "max_limit": "",
                 "type": "highAccept",
+                "geoLimit": "IN",
                 "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
         },
         {
@@ -48,6 +49,7 @@
                 "min_limit": "",
                 "max_limit": "10",
                 "type": "lowAccept",
+                "geoLimit": "IN",
                 "comments": "Unit: NTU. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
         },
         {
@@ -56,6 +58,7 @@
                 "min_limit": "",
                 "max_limit": "2250",
                 "type": "lowAccept",
+                "geoLimit": "IN",
                 "comments": "Unit: micro siemens/cm. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
         },
         {
@@ -64,15 +67,16 @@
                 "min_limit": "",
                 "max_limit": "500",
                 "type": "lowAccept",
+                "geoLimit": "IN",
                 "comments": "Unit: Colonies/100ml. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
         },
-        // --------------------------------------------------------
         {
                 "name": "FC",
                 "full_name": "Faecal  Coliform Bacteria Count (FC)",
                 "min_limit": "",
                 "max_limit": "25000",
                 "type": "lowAccept",
+                "geoLimit": "IN",
                 "comments": "Unit: Colonies/100ml. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
         },
         {
@@ -84,13 +88,13 @@
                 "type": "lowAccept",
                 "comments": "Unit: Colonies/100ml. Source: https://www.health.ny.gov/regulations/nycrr/title_10/part_6/subpart_6-2.htm#s6210, Section 6-2.15"
         },
-        // --------------------------------------------------------
         {
                 "name": "FS",
                 "full_name": "Faecal Strptococci  Bacteria Count (FS)",
                 "min_limit": "",
                 "max_limit": "5000",
                 "type": "lowAccept",
+                "geoLimit": "IN",
                 "comments": "Unit: Colonies/100ml. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
         },
         {
@@ -99,6 +103,7 @@
                 "min_limit": "",
                 "max_limit": "300000",
                 "type": "lowAccept",
+                "geoLimit": "IN",
                 "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
         },
         {
@@ -107,6 +112,7 @@
                 "min_limit": "",
                 "max_limit": "200000",
                 "type": "lowAccept",
+                "geoLimit": "IN",
                 "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
         },
         {
@@ -115,6 +121,7 @@
                 "min_limit": "",
                 "max_limit": "250000",
                 "type": "lowAccept",
+                "geoLimit": "IN",
                 "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
         },
         {
@@ -123,6 +130,7 @@
                 "min_limit": "",
                 "max_limit": "200000",
                 "type": "lowAccept",
+                "geoLimit": "IN",
                 "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
         },
         {
@@ -131,6 +139,7 @@
                 "min_limit": "",
                 "max_limit": "10",
                 "type": "lowAccept",
+                "geoLimit": "IN",
                 "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
         },
         {
@@ -139,6 +148,7 @@
                 "min_limit": "",
                 "max_limit": "50",
                 "type": "lowAccept",
+                "geoLimit": "IN",
                 "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
         },
         {
@@ -147,6 +157,7 @@
                 "min_limit": "",
                 "max_limit": "20",
                 "type": "lowAccept",
+                "geoLimit": "IN",
                 "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
         },
         {
@@ -155,6 +166,7 @@
                 "min_limit": "",
                 "max_limit": "300",
                 "type": "lowAccept",
+                "geoLimit": "IN",
                 "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
         },
         {
@@ -173,6 +185,7 @@
                 "max_limit": "50",
                 "purpose": "drinking",
                 "type": "lowAccept",
+                "geoLimit": "IN",
                 "comments": "Unit: ug/l. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
         },
         {
@@ -182,6 +195,7 @@
                 "max_limit": "1300",
                 "purpose": "drinking",
                 "type": "lowAccept",
+                "geoLimit": "US",
                 "comments": "Unit: ug/l. Source: https://www.epa.gov/wqc/national-recommended-water-quality-criteria-human-health-criteria-table"
         },
         {
@@ -190,9 +204,10 @@
                 "min_limit": "",
                 "max_limit": "2.5",
                 "type": "lowAccept",
+                "purpose": "acquatic",
+                "geoLimit": "US",
                 "comments": "Unit: ug/l. Source: https://www.epa.gov/wqc/national-recommended-water-quality-criteria-aquatic-life-criteria-table"
         },
-        // --------------------------------------------------------
         {
                 "name": "BacteriologicalQuality",
                 "full_name": "Lead",
@@ -213,5 +228,4 @@
                 "type": "lowAccept",
                 "comments": "Unit: Enterococci/100ml. Source: https://www.health.ny.gov/regulations/nycrr/title_10/part_6/subpart_6-2.htm#s6210, Section 6-2.15"
         }
-        // --------------------------------------------------------
 ]
