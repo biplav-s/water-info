@@ -1,4 +1,5 @@
 [
+        // --------------------------------------------------------
         {
                 "name": "pH",
                 "full_name": "pH",
@@ -16,6 +17,7 @@
                 "type": "accept_range",
                 "comments": "Units: Decimal log. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
         },
+        // --------------------------------------------------------
         {
                 "name": "Air_Temperature",
                 "full_name": "Air Remperature",
@@ -64,6 +66,7 @@
                 "type": "lowAccept",
                 "comments": "Unit: Colonies/100ml. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
         },
+        // --------------------------------------------------------
         {
                 "name": "FC",
                 "full_name": "Faecal  Coliform Bacteria Count (FC)",
@@ -72,6 +75,16 @@
                 "type": "lowAccept",
                 "comments": "Unit: Colonies/100ml. Source: http://cpcb.nic.in/upload/Latest/Latest_67_guidemanualw&wwanalysis.pdf"
         },
+        {
+                "name": "FC",
+                "full_name": "Faecal  Coliform Bacteria Count (FC)",
+                "min_limit": "",
+                "max_limit": "1000",
+                "geoLimit": "US:NY",
+                "type": "lowAccept",
+                "comments": "Unit: Colonies/100ml. Source: https://www.health.ny.gov/regulations/nycrr/title_10/part_6/subpart_6-2.htm#s6210, Section 6-2.15"
+        },
+        // --------------------------------------------------------
         {
                 "name": "FS",
                 "full_name": "Faecal Strptococci  Bacteria Count (FS)",
@@ -178,5 +191,27 @@
                 "max_limit": "2.5",
                 "type": "lowAccept",
                 "comments": "Unit: ug/l. Source: https://www.epa.gov/wqc/national-recommended-water-quality-criteria-aquatic-life-criteria-table"
+        },
+        // --------------------------------------------------------
+        {
+                "name": "BacteriologicalQuality",
+                "full_name": "Lead",
+                "min_limit": "",
+                "max_limit": "61",
+                "purpose": "bathing:freshwater",
+                "geoLimit": "US:NY",
+                "type": "lowAccept",
+                "comments": "Unit: Enterococci/100ml. Source: https://www.health.ny.gov/regulations/nycrr/title_10/part_6/subpart_6-2.htm#s6210, Section 6-2.15"
+        },
+        {
+                "name": "BacteriologicalQuality",
+                "full_name": "Lead",
+                "min_limit": "",
+                "max_limit": "104",
+                "purpose": "bathing:marinewater",
+                "geoLimit": "US:NY",
+                "type": "lowAccept",
+                "comments": "Unit: Enterococci/100ml. Source: https://www.health.ny.gov/regulations/nycrr/title_10/part_6/subpart_6-2.htm#s6210, Section 6-2.15"
         }
+        // --------------------------------------------------------
 ]
