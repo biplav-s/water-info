@@ -209,8 +209,18 @@
                 "comments": "Unit: ug/l. Source: https://www.epa.gov/wqc/national-recommended-water-quality-criteria-aquatic-life-criteria-table"
         },
         {
-                "name": "BacteriologicalQuality",
+                "name": "Lead",
                 "full_name": "Lead",
+                "min_limit": "",
+                "max_limit": "15",
+                "type": "lowAccept",
+                "purpose": "drinking",
+                "geoLimit": "US:MI",
+                "comments": "Unit: ug/l. Source: http://www.michigan.gov/deq/0,4561,7-135-3313_3675_3691-9677--,00.html"
+        },
+        {
+                "name": "BacteriologicalQuality",
+                "full_name": "Bacteriological Quality",
                 "min_limit": "",
                 "max_limit": "61",
                 "purpose": "bathing:freshwater",
@@ -220,7 +230,7 @@
         },
         {
                 "name": "BacteriologicalQuality",
-                "full_name": "Lead",
+                "full_name": "Bacteriological Quality",
                 "min_limit": "",
                 "max_limit": "104",
                 "purpose": "bathing:marinewater",
