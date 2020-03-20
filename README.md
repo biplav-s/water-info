@@ -7,6 +7,11 @@
   qualify the results.
 
 
+**Demonstration**
+See usage in Water Advisor
+  - Video: https://www.youtube.com/watch?v=z4x44sxC3zA
+  - Paper: Jason Ellis, Biplav Srivastava, Rachel Bellamy and Andy Aaron, Water Advisor - A Data-Driven, Multi-Modal, Contextual Assistant to Help with Water Usage Decisions, AAAI 2018. [Demonstration paper].
+
 **Notes**:
   - geoLimit: uses international country code (2 digit), and also standard
        state codes where applicable
@@ -16,3 +21,7 @@
       * "generic": no limits are known
       * "highAccept": higher value than min_limit is better
       * "lowAccept": lower value than max_limit is better
+
+**Credits**
+Created  by Biplav Srivastava as part of Blue Water project, https://sites.google.com/site/biplavsrivastava/research-1/bluewater
+
