@@ -23,5 +23,6 @@ See usage in Water Advisor
       * "lowAccept": lower value than max_limit is better
 
 **Credits**
+
 Created  by Biplav Srivastava as part of Blue Water project, https://sites.google.com/site/biplavsrivastava/research-1/bluewater
 
