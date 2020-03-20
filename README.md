@@ -1,4 +1,4 @@
-Purposes:
+**Purpose**:
   Provide permissible limits for analyzing water quality. The information
   is taken from different standards, purporting to be applicable at
   specific locations, and for specific purposes. An application may
@@ -7,7 +7,7 @@ Purposes:
   qualify the results.
 
 
-Notes:
+**Notes**:
   - geoLimit: uses international country code (2 digit), and also standard
        state codes where applicable
   - type:
