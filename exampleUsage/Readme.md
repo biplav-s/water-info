@@ -1,3 +1,5 @@
+__Example using pollution data collected for Flint, MI, USA__
+
 **Steps**
 
 1. Install needed packages
